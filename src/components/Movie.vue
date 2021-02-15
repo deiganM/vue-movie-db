@@ -1,6 +1,6 @@
 <template>
+  <!-- So you can click on the movie image and see the info -->
   <router-link :to="moviePath">
-    // So you can click on the movie image and see the info
     <img :src="posterImage" :alt="movie.title" />
   </router-link>
 </template>
