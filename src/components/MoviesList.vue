@@ -15,9 +15,24 @@ export default {
       movies: [],
     }
   },
-  created: function() {
+  // beforeCreate() {
+  //   console.log('before create')
+  // },
+  created() {
     this.fetchData()
   },
+  // beforeMount() {
+  //   console.log('before mount')
+  // },
+  // mounted() {
+  //   console.log('mounted')
+  // },
+  // beforeUpdate() {
+  //   console.log('before update')
+  // },
+  // updated() {
+  //   console.log('Updated')
+  // },
   methods: {
     async fetchData() {
       try {
