@@ -3,11 +3,11 @@
     <h1>
       <router-link to="/">{{ title }}</router-link>
     </h1>
-    <transition name="fade">
+    <!-- <transition name="fade">
       <h1 v-if="show">Animated</h1>
-    </transition>
+    </transition> -->
     <!-- Good for a basic toggle button -->
-    <button @click="show = !show">Show/Hide</button>
+    <!-- <button @click="show = !show">Show/Hide</button> -->
   </header>
 </template>
 
